@@ -6,8 +6,8 @@
 
 <br/>
 
-### Applied Artificial Intelligence & Computer Vision Research Group
-*Advancing Optical Document Forensics, Superimposed Text Localization, and Neural Pattern Analysis*
+### Applied Artificial Intelligence & Machine Learning Research Group
+*Advancing Deep Learning, Computer Vision, and Intelligent Systems*
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org/)
@@ -21,13 +21,13 @@
 
 ## 📌 About the Research Group
 
-**Tim Riset AI** adalah kelompok riset kolaboratif yang berfokus pada pengembangan kecerdasan buatan, visi komputer terapan (*applied computer vision*), dan analisis integritas dokumen digital. Riset kami menitikberatkan pada perancangan arsitektur *deep learning* yang dapat direproduksi (*reproducible*), transparan, dan terukur secara empiris.
+**Tim Riset AI** adalah kelompok riset kecerdasan buatan terapan (*applied artificial intelligence*) yang berfokus pada eksplorasi, eksperimentasi, dan rekayasa model pembelajaran mesin modern. Kami menjembatani teori komputasi cerdas dan pemrosesan visual ke dalam implementasi perangkat lunak yang tangguh, teruji, dan dapat direproduksi (*reproducible*).
 
-Fokus riset utama laboratorium saat ini diarahkan pada pemecahan tantangan **deteksi dan lokalisasi manipulasi dokumen optik**, khususnya fenomena penimpaan teks (*overwritten / superimposed text alteration*) pada dokumen resmi dan instrumen legal.
+Kelompok riset ini mewadahi kolaborasi penelitian akademik lintas domain, mulai dari pengembangan arsitektur *deep learning*, visi komputer, hingga pemrosesan sinyal dan pola data kompleks.
 
 ---
 
-## 🔬 Core Research Pillars
+## 🔬 Core Focus Areas
 
 ```
                      ┌────────────────────────────────────────┐
@@ -37,52 +37,51 @@ Fokus riset utama laboratorium saat ini diarahkan pada pemecahan tantangan **det
         ┌────────────────────────────────┼────────────────────────────────┐
         ▼                                ▼                                ▼
 ┌───────────────────────┐    ┌───────────────────────┐    ┌───────────────────────┐
-│  DOCUMENT FORENSICS   │    │  DEEP VISION PATTERNS │    │  DATASETS & BENCHMARK │
-│  & TAMPER DETECTION   │    │   & FEATURE LEARNING  │    │      EVALUATION       │
+│    COMPUTER VISION    │    │     DEEP LEARNING     │    │   EMPIRICAL RIGOR &   │
+│ & PATTERN RECOGNITION │    │   & NEURAL SYSTEMS    │    │    BENCHMARKING       │
 ├───────────────────────┤    ├───────────────────────┤    ├───────────────────────┤
-│ • Overwrite Detection │    │ • Multi-scale Pyramids│    │ • Standardized Splits │
-│ • Superimposed Text   │    │ • Frequency Domain    │    │ • Pixel-level IoU     │
-│ • Stroke Discontinuity│    │   Artifacts (FFT/DCT) │    │ • Boundary Precision  │
-│ • Forensic Pixel Mask │    │ • Attention Mechanisms│    │ • Cross-domain Tests  │
+│ • Visual Perception   │    │ • Neural Architectures│    │ • Standardized Splits │
+│ • Feature Learning    │    │ • Multi-scale Learning│    │ • Comprehensive Metric│
+│ • Segmentation & Det. │    │ • Representation Space│    │   Evaluation Protocols│
+│ • Image & Signal Proc.│    │ • Attention Mechanisms│    │ • Reproducible Builds │
 └───────────────────────┘    └───────────────────────┘    └───────────────────────┘
 ```
 
-### 1. Document Forensics & Overwritten Text Detection
-- **Superimposed & Overwrite Text Localization**: Mendeteksi dan mengisolasi goresan teks tambahan yang ditimpakan di atas teks atau latar belakang dokumen asli (*tampered character strokes*).
-- **Stroke Discontinuity & Ink Inconsistency Analysis**: Menganalisis ketidaksesuaian gradien tepi, kepadatan piksel, dan karakteristik morfologi goresan tinta untuk membedakan lapisan teks asli versus modifikasi.
-- **Micro-Artifact & Frequency Analysis**: Memanfaatkan dekomposisi frekuensi (FFT/DCT) dan representasi spasial resolusi tinggi guna mengekspos anomali kompresi dan manipulasi pada tingkat sub-piksel.
+### 1. Computer Vision & Pattern Recognition
+- **Visual Representation Learning**: Ekstraksi dan pemetaan fitur visual dari citra kompleks menggunakan representasi hierarkis multi-skala.
+- **Object Detection & Semantic Segmentation**: Lokalisasi dan klasifikasi entitas visual pada tingkat piksel maupun batas kontur (*bounding regions*).
+- **Advanced Image Processing**: Pemanfaatan transformasi spasial, domain frekuensi, dan penajaman kontras adaptif untuk mendukung *pipeline* analisis citra.
 
-### 2. Neural Computer Vision & Feature Learning
-- **Multi-Scale Feature Aggregation**: Mengembangkan *encoder-decoder* dan *feature pyramid networks* yang sensitif terhadap fitur semantik mikro (teks kecil) dan struktur makro dokumen.
-- **Dual-Branch Spatial-Frequency Networks**: Mengintegrasikan analisis domain spasial dengan domain frekuensi untuk menangkap distorsi manipulasi yang tidak kasat mata.
-- **Attention & Boundary Refinement**: Mempertegas batas segmentasi piksel manipulasi menggunakan mekanisme *spatial-channel attention* yang terkalibrasi.
+### 2. Deep Learning & Neural Architectures
+- **Model Design & Optimization**: Eksperimentasi dan adaptasi arsitektur jaringan saraf tiruan (CNN, Vision Transformers, dan model hibrida).
+- **Feature Aggregation & Attention**: Integrasi mekanisme *attention* spasial dan kanal guna meningkatkan sensitivitas terhadap fitur-fitur kritis.
+- **Robustness & Generalization**: Pengujian resistansi model terhadap degradasi data masukan, variasi lingkungan, dan augmentasi stokastik.
 
-### 3. Empirical Benchmarks & Scientific Rigor
-- **Standardized Benchmark Datasets**: Membangun protokol evaluasi berbasis ground truth piksel (*pixel-level segmentation masks*) dan bounding-box deteksi tingkat karakter/kata.
-- **Rigorous Metrics Reporting**: Evaluasi menyeluruh menggunakan Precision, Recall, $F_1$-Score, mean Intersection-over-Union (mIoU), dan AUC-PR untuk memastikan ketahanan model terhadap variasi noise dan degradasi scan.
+### 3. Empirical Rigor & Reproducible Systems
+- **Standardized Benchmarking**: Penerapan protokol pengujian berbasis pemisahan data yang konsisten dan ground truth yang terverifikasi.
+- **Metric-Driven Evaluation**: Evaluasi kuantitatif komprehensif menggunakan metrik standar industri dan literatur ilmiah.
+- **Modular Codebase Architecture**: Penulisan kode eksperimen yang bersih, modular, dan siap digunakan kembali (*reusable & extendable*).
 
 ---
 
 ## 📐 Scientific Standards & Reproducibility
 
-Setiap repositori dan proyek eksperimen di lingkungan **Tim Riset AI** mengikuti standar penelitian yang ketat:
+Setiap repositori dan proyek eksperimen di lingkungan **Tim Riset AI** berpegang pada prinsip ilmiah:
 
-1. **Deterministic Reproducibility**: Menyediakan fixed random seed, lingkungan dependensi terisolasi, dan script pelatihan yang terverifikasi end-to-end.
-2. **Standardized Evaluation Metrics**:
-   - **Detection & Localization**: Precision, Recall, $F_1$-score, IoU (Intersection over Union), dan Boundary F-score.
-   - **Pixel Classification**: False Positive Rate (FPR), True Positive Rate (TPR), dan Area Under Precision-Recall Curve (AUC-PR).
-3. **Data Integrity**: Menjamin keabsahan ground-truth anotasi melalui proses verifikasi silang antar-peneliti dalam kelompok.
+1. **Deterministic Execution**: Menjaga reprodusibilitas hasil pelatihan melalui pengendalian *seed*, dokumentasi dependensi, dan standarisasi *data pipeline*.
+2. **Transparent Validation**: Pelaporan metrik secara transparan tanpa bias cherry-picking, mencakup performa rata-rata, varians, dan analisis limitasi model.
+3. **Collaborative Workflow**: Penerapan kontrol versi (*git workflow*), penelaahan kode berkala (*code review*), dan dokumentasi arsitektur yang terstruktur.
 
 ---
 
 ## 📑 Citation & Academic Attribution
 
-Apabila Anda menggunakan arsitektur, dataset, atau modul penelitian yang dikembangkan oleh **Tim Riset AI**, silakan gunakan format sitasi berikut:
+Apabila Anda merujuk atau menggunakan repositori, dataset, atau arsitektur dari **Tim Riset AI**, silakan gunakan atribusi berikut:
 
 ```bibtex
 @misc{timrisetai2026,
   author       = {Tim Riset AI Group},
-  title        = {Applied Computer Vision & Document Forensics Research Group},
+  title        = {Applied Artificial Intelligence & Machine Learning Research Group},
   year         = {2026},
   publisher    = {GitHub},
   journal      = {GitHub Organization Profile},
