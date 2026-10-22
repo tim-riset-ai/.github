@@ -2,15 +2,9 @@
 
 <div align="center">
 
-```
-  _______ _____ __  __   _____  _____  _____ ______ _______ 
- |__   __|_   _|  \/  | |  __ \|_   _|/ ____|  ____|__   __|
-    | |    | | | \  / | | |__) | | | | (___ | |__     | |   
-    | |    | | | |\/| | |  _  /  | |  \___ \|  __|    | |   
-    | |   _| |_| |  | | | | \ \ _| |_ ____) | |____   | |   
-    |_|  |_____|_|  |_| |_|  \_\_____|_____/|______|  |_|   
-                     A R T I F I C I A L   I N T E L L I G E N C E
-```
+<img src="https://raw.githubusercontent.com/tim-riset-ai/.github/main/assets/logo.png" alt="Tim Riset AI Official Logo" width="360" />
+
+<br/>
 
 ### Applied Artificial Intelligence & Machine Learning Research Laboratory
 *Advancing Document Forensics, Biometric Computer Vision, and Autonomous Cognitive Systems*
