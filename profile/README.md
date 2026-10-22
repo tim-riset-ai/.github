@@ -74,23 +74,6 @@ Setiap repositori dan proyek eksperimen di lingkungan **Tim Riset AI** berpegang
 
 ---
 
-## 📑 Citation & Academic Attribution
-
-Apabila Anda merujuk atau menggunakan repositori, dataset, atau arsitektur dari **Tim Riset AI**, silakan gunakan atribusi berikut:
-
-```bibtex
-@misc{timrisetai2026,
-  author       = {Tim Riset AI Group},
-  title        = {Applied Artificial Intelligence & Machine Learning Research Group},
-  year         = {2026},
-  publisher    = {GitHub},
-  journal      = {GitHub Organization Profile},
-  howpublished = {\url{https://github.com/tim-riset-ai}}
-}
-```
-
----
-
 <div align="center">
-  <sub>Tim Riset AI • Collaborative Research Group • Est. 2026</sub>
+  <sub>Tim Riset AI • Applied AI &amp; Machine Learning Group</sub>
 </div>
