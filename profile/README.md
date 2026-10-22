@@ -19,9 +19,9 @@
 
 ## 📌 About the Research Group
 
-**Tim Riset AI** adalah kelompok riset kecerdasan buatan terapan (*applied artificial intelligence*) yang berfokus pada eksplorasi, eksperimentasi, dan rekayasa model pembelajaran mesin modern. Kami menjembatani teori komputasi cerdas dan pemrosesan visual ke dalam implementasi perangkat lunak yang tangguh, teruji, dan dapat direproduksi (*reproducible*).
+**Tim Riset AI** is a collaborative applied artificial intelligence research group dedicated to exploring, experimenting with, and engineering modern machine learning models. We bridge theoretical computing and visual perception into robust, rigorous, and reproducible software artifacts.
 
-Kelompok riset ini mewadahi kolaborasi penelitian akademik lintas domain, mulai dari pengembangan arsitektur *deep learning*, visi komputer, hingga pemrosesan sinyal dan pola data kompleks.
+Our research group serves as an academic and engineering collaboration umbrella across multiple domains, ranging from novel deep learning architectures and computer vision to advanced signal processing and complex pattern representation.
 
 ---
 
