@@ -6,8 +6,8 @@
 
 <br/>
 
-### Applied Artificial Intelligence & Machine Learning Research Laboratory
-*Advancing Document Forensics, Biometric Computer Vision, and Autonomous Cognitive Systems*
+### Applied Artificial Intelligence & Computer Vision Research Group
+*Advancing Optical Document Forensics, Superimposed Text Localization, and Neural Pattern Analysis*
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org/)
@@ -19,11 +19,11 @@
 
 ---
 
-## 📌 About the Laboratory
+## 📌 About the Research Group
 
-**Tim Riset AI** is a collaborative applied research laboratory dedicated to pushing the boundaries of machine intelligence, optical document integrity, and biometric pattern analysis. We bridge theoretical computer vision and modern deep learning architectures into rigorous, reproducible, and verifiable engineering artifacts.
+**Tim Riset AI** adalah kelompok riset kolaboratif yang berfokus pada pengembangan kecerdasan buatan, visi komputer terapan (*applied computer vision*), dan analisis integritas dokumen digital. Riset kami menitikberatkan pada perancangan arsitektur *deep learning* yang dapat direproduksi (*reproducible*), transparan, dan terukur secara empiris.
 
-Our research culture emphasizes **peer-reviewed scientific methodology**, **transparent benchmark reproducibility**, and **minimal-latency deployment** for critical real-world systems.
+Fokus riset utama laboratorium saat ini diarahkan pada pemecahan tantangan **deteksi dan lokalisasi manipulasi dokumen optik**, khususnya fenomena penimpaan teks (*overwritten / superimposed text alteration*) pada dokumen resmi dan instrumen legal.
 
 ---
 
@@ -31,58 +31,58 @@ Our research culture emphasizes **peer-reviewed scientific methodology**, **tran
 
 ```
                      ┌────────────────────────────────────────┐
-                     │          TIM RISET AI LAB              │
+                     │          TIM RISET AI GROUP            │
                      └───────────────────┬────────────────────┘
                                          │
         ┌────────────────────────────────┼────────────────────────────────┐
         ▼                                ▼                                ▼
 ┌───────────────────────┐    ┌───────────────────────┐    ┌───────────────────────┐
-│  DOCUMENT FORENSICS   │    │  BIOMETRIC COMPUTER   │    │   AUTONOMOUS AGENT    │
-│  & TAMPER DETECTION   │    │        VISION         │    │       SYSTEMS         │
+│  DOCUMENT FORENSICS   │    │  DEEP VISION PATTERNS │    │  DATASETS & BENCHMARK │
+│  & TAMPER DETECTION   │    │   & FEATURE LEARNING  │    │      EVALUATION       │
 ├───────────────────────┤    ├───────────────────────┤    ├───────────────────────┤
-│ • Overwrite Detection │    │ • Palm Vein Biometrics│    │ • Tool-Augmented LLM  │
-│ • Text Inpainting     │    │ • NIR Multi-spectral  │    │ • Deterministic Code  │
-│ • Font Stroke Analysis│    │ • Gabor Filter Banks  │    │   Execution Harnesses │
-│ • Forensic Pixel Mask │    │ • Coarse-to-Fine NCC  │    │ • Multi-Agent Synapse │
+│ • Overwrite Detection │    │ • Multi-scale Pyramids│    │ • Standardized Splits │
+│ • Superimposed Text   │    │ • Frequency Domain    │    │ • Pixel-level IoU     │
+│ • Stroke Discontinuity│    │   Artifacts (FFT/DCT) │    │ • Boundary Precision  │
+│ • Forensic Pixel Mask │    │ • Attention Mechanisms│    │ • Cross-domain Tests  │
 └───────────────────────┘    └───────────────────────┘    └───────────────────────┘
 ```
 
-### 1. Document Forensics & Optical Tamper Detection
-- **Superimposed & Overwrite Text Detection**: Localizing illicit alterations, numerical modifications, and superimposed character strokes in scanned official certificates, invoices, and legal documents.
-- **Micro-Artifact Analysis**: Utilizing frequency-domain analysis (DCT/FFT), edge-gradient inconsistencies, and deep feature segmentation to expose forensic anomalies invisible to the naked eye.
-- **Multimodal Text Integrity Verification**: Combining OCR layout analysis, font geometry metrics, and convolutional neural representations to detect document forgery.
+### 1. Document Forensics & Overwritten Text Detection
+- **Superimposed & Overwrite Text Localization**: Mendeteksi dan mengisolasi goresan teks tambahan yang ditimpakan di atas teks atau latar belakang dokumen asli (*tampered character strokes*).
+- **Stroke Discontinuity & Ink Inconsistency Analysis**: Menganalisis ketidaksesuaian gradien tepi, kepadatan piksel, dan karakteristik morfologi goresan tinta untuk membedakan lapisan teks asli versus modifikasi.
+- **Micro-Artifact & Frequency Analysis**: Memanfaatkan dekomposisi frekuensi (FFT/DCT) dan representasi spasial resolusi tinggi guna mengekspos anomali kompresi dan manipulasi pada tingkat sub-piksel.
 
-### 2. Contactless Biometrics & Near-Infrared (NIR) Vision
-- **Vascular Pattern Recognition**: Non-invasive contactless palm vein verification utilizing multi-spectral Near-Infrared illumination (850 nm / 940 nm).
-- **Geometric Invariance & ROI Alignment**: Multi-moment contour analysis for robust center-of-mass deskewing and adaptive contrast enhancement (CLAHE).
-- **Sub-Band Feature Decomposition**: Multi-directional 2D Gabor filter banks paired with hierarchically bounded Normalized Cross-Correlation (NCC).
+### 2. Neural Computer Vision & Feature Learning
+- **Multi-Scale Feature Aggregation**: Mengembangkan *encoder-decoder* dan *feature pyramid networks* yang sensitif terhadap fitur semantik mikro (teks kecil) dan struktur makro dokumen.
+- **Dual-Branch Spatial-Frequency Networks**: Mengintegrasikan analisis domain spasial dengan domain frekuensi untuk menangkap distorsi manipulasi yang tidak kasat mata.
+- **Attention & Boundary Refinement**: Mempertegas batas segmentasi piksel manipulasi menggunakan mekanisme *spatial-channel attention* yang terkalibrasi.
 
-### 3. Autonomous Cognitive Agents & Deterministic Harnesses
-- **Neuro-Symbolic Execution**: Integrating large language model (LLM) reasoning with strictly deterministic tool harnesses, continuous verification loops, and sandboxed execution environments.
-- **Multi-Agent Consensus & Workflow Automation**: Production-grade agentic pipelines featuring task graph decomposition, automatic retry policies, and zero-loss state isolation.
+### 3. Empirical Benchmarks & Scientific Rigor
+- **Standardized Benchmark Datasets**: Membangun protokol evaluasi berbasis ground truth piksel (*pixel-level segmentation masks*) dan bounding-box deteksi tingkat karakter/kata.
+- **Rigorous Metrics Reporting**: Evaluasi menyeluruh menggunakan Precision, Recall, $F_1$-Score, mean Intersection-over-Union (mIoU), dan AUC-PR untuk memastikan ketahanan model terhadap variasi noise dan degradasi scan.
 
 ---
 
 ## 📐 Scientific Standards & Reproducibility
 
-Every research repository hosted under **Tim Riset AI** adheres to standardized scientific protocols:
+Setiap repositori dan proyek eksperimen di lingkungan **Tim Riset AI** mengikuti standar penelitian yang ketat:
 
-1. **Deterministic Reproducibility**: All training pipelines provide fixed random seeds, isolated Python environments, and standardized evaluation splits.
-2. **Rigorous Metric Reporting**:
-   - **Detection & Segmentation**: Precision, Recall, $F_1$-score, IoU (Intersection over Union), Precision-Recall AUC.
-   - **Biometrics & Verification**: False Acceptance Rate (FAR), False Rejection Rate (FRR), Equal Error Rate (EER), and ROC Curves.
-3. **Data Integrity & Ethics**: Datasets curated by the lab follow strict data privacy, pseudonymization, and research compliance standards.
+1. **Deterministic Reproducibility**: Menyediakan fixed random seed, lingkungan dependensi terisolasi, dan script pelatihan yang terverifikasi end-to-end.
+2. **Standardized Evaluation Metrics**:
+   - **Detection & Localization**: Precision, Recall, $F_1$-score, IoU (Intersection over Union), dan Boundary F-score.
+   - **Pixel Classification**: False Positive Rate (FPR), True Positive Rate (TPR), dan Area Under Precision-Recall Curve (AUC-PR).
+3. **Data Integrity**: Menjamin keabsahan ground-truth anotasi melalui proses verifikasi silang antar-peneliti dalam kelompok.
 
 ---
 
 ## 📑 Citation & Academic Attribution
 
-If you utilize datasets, model checkpoints, or architectural designs published by **Tim Riset AI**, please cite our laboratory:
+Apabila Anda menggunakan arsitektur, dataset, atau modul penelitian yang dikembangkan oleh **Tim Riset AI**, silakan gunakan format sitasi berikut:
 
 ```bibtex
 @misc{timrisetai2026,
-  author       = {Tim Riset AI Laboratory},
-  title        = {Applied Artificial Intelligence and Computer Vision Research Group},
+  author       = {Tim Riset AI Group},
+  title        = {Applied Computer Vision & Document Forensics Research Group},
   year         = {2026},
   publisher    = {GitHub},
   journal      = {GitHub Organization Profile},
@@ -93,7 +93,5 @@ If you utilize datasets, model checkpoints, or architectural designs published b
 ---
 
 <div align="center">
-
-<sub>Maintained by <b>Tim Riset AI</b> • Advancing Open & Rigorous Intelligence</sub>
-
+  <sub>Tim Riset AI • Collaborative Research Group • Est. 2026</sub>
 </div>
